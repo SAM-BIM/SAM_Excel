@@ -21,7 +21,7 @@ namespace SAM.Core.Grasshopper.Excel
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Excel;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_TableUpdate;
 
         public override GH_Exposure Exposure => GH_Exposure.tertiary;
 
