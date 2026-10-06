@@ -1,4 +1,7 @@
-﻿using Grasshopper.Kernel;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using Grasshopper.Kernel;
 using Grasshopper.Kernel.Parameters;
 using Grasshopper.Kernel.Types;
 using SAM.Core.Grasshopper.Excel.Properties;
@@ -22,7 +25,7 @@ namespace SAM.Core.Grasshopper.Excel
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Excel;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_ScriptRun;
 
         public override GH_Exposure Exposure => GH_Exposure.quarternary;
 
