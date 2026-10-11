@@ -1,5 +1,15 @@
 # Project Progress - SAM_Excel (2026-Q4)
 
+## Icon migration closeout — 2026-10-11
+
+- [SAM_Excel#9](https://github.com/SAM-BIM/SAM_Excel/pull/9) merged as `db4461c2d7eaaa8217c2cf8b13d1bba185862b13`; owner authorized merging after green/safe validation. Feature branch preserved.
+- Completed frozen SAM#179 glyph/palette/badge migration; component GUIDs, APIs, namespaces, metadata and behavior preserved. Icon resources, manifests/generation kit, token assignments and PR validation record changed; no unrelated production refactor.
+- Fresh local `Release` build PASS; source guard 8 token swaps / 0 non-icon C# changes (standard SPDX headers and additive resource properties excepted); 8 resource references / 0 errors. Final-head GitHub checks passed before merge. Available regression test results are recorded in `documentation/Icon-Migration-Validation-2026-10-11.md`; hosted Rhino smoke is not claimed as a fresh pass.
+- Revit-family additional builds: 2025/2027 passed where applicable. OCCT native build and native integration cases were not required for resource-only changes; skips remain documented.
+- Remaining: no known blocker for this merged icon PR. SAM_Building and separate local test/environment failures elsewhere remain tracked in the organisation audit; unrelated PR9 is not merged by this task. All network operations target SAM-BIM; historical external integration/attribution text is unchanged.
+- Exact next step: owner visual review of merged icons in the installed host, then continue other work from current Q4. No installer/submodule repin is included in this closeout.
+
+
 ## Branch
 
 `sow/2026-Q4` - bootstrapped 2026-10-06 from `master` `befb1acd`. Frozen Q3 record: `sow/2026-Q3` @ `e592e7aa` (not modified).
